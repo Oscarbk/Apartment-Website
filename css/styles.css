@@ -1,0 +1,53 @@
+.ms-auto {
+    margin-left: auto !important;
+}
+.bg-gwu {
+    background-color: rgb(2, 43, 65);
+}
+.test {
+    text-align: center;
+    color: #0073aa;
+}
+.divider {
+    background-color: #0073aa;
+    height: 4px;
+}
+.resize {
+    max-width: 100%;
+}
+.card-view {
+    border: 1px solid black;
+    border-radius: 25px;
+}
+.listing {
+    max-width: 300px;
+}
+.footer {
+    margin: 8px 0 0 16px;
+}
+.footer-header {
+    color: rgb(173,158,110);
+    font-size: 20px;
+}
+.footer-subheader {
+    color: white;
+    margin-top: -8px;
+    font-size: 16px;
+}
+.footer-body {
+    color: white;
+    font-size: 12px;
+}
+.card-title {
+    color: rgb(173,158,110);
+}
+.btn-primary {
+    color: #205878;
+    background-color: #fff;
+    border-color: #0073aa;
+}
+.btn-primary:hover {
+    color: #205878;
+    background-color: #e3dccc;
+    border-color: #e3dccc;
+}
