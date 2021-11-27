@@ -51,3 +51,16 @@
     background-color: #e3dccc;
     border-color: #e3dccc;
 }
+.about-container {
+    overflow: auto;
+}
+.header {
+    color: #033c5a;
+    font-weight: bold;
+}
+.about-body {
+    margin: 48px 128px 48px 128px;
+    text-align: center;
+    font-family: "AvenirLT-Heavy",Helvetica,Arial,sans-serif;
+    line-height: 1.28571em;
+}
