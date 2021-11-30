@@ -4,7 +4,7 @@
 .bg-gwu {
     background-color: rgb(2, 43, 65);
 }
-.test {
+.header {
     text-align: center;
     color: #0073aa;
 }
@@ -55,21 +55,45 @@ h3 {
     color: #033c5a;
     font-weight: bold;
 }
-.about-body {
+.about-body{
     margin: 48px 128px 48px 128px;
     text-align: center;
     font-family: "AvenirLT-Heavy",Helvetica,Arial,sans-serif;
     line-height: 1.28571em;
 }
+.test {
+    margin: 0 95px 0 95px;
+    color: black;
+    font-family: "AvenirLT-Heavy",Helvetica,Arial,sans-serif;
+    line-height: 1.28571em;
+    text-align: left;
+}
 .left-div {
     float: left;
-    width: 25%;
+    width: 30%;
     height: auto;
     overflow: hidden;
 }
 .right-div {
     float: right;
-    width: 25%;
+    width: 30%;
     height: auto;
     overflow: hidden;
+}
+form {
+    margin: 32px 32px 32px 32px;
+}
+.formBox {
+    max-width: 128px;
+}
+.aboutForm {
+    position: absolute;
+    top: 32px;
+    right: -32px;
+    width: 30%;
+    height: auto;
+    text-align: left;
+}
+p {
+    text-align: left;
 }

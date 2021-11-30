@@ -6,6 +6,7 @@
     <!-- Our Team's Stylesheets are built on top of Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="css/styles.css" rel="stylesheet">
+    <script src="scripts/filter.js"></script>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-gwu">
@@ -17,28 +18,47 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link active" aria-current="page">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="explore.html">Explore</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Explore</a></li>
                 <li class="nav-item"><a class="nav-link" href="#!">Calculator</a></li>
             </ul>
         </div>
     </div>
 </nav>
 
-<div class="about-body">
-    <h3 class="header">A Diverse Community is a Strong Community</h3>
-    <!--<p class="test">Collaboration, Respect, Openness and Diversity are core values that define the George Washington University (GW). The Accessibility Notice and Equal Opportunity (EO) Statement shared here reflect our desire to make this a welcoming and inclusive space for all students, visitors and members of our broader community.</p>-->
-    <p class="test">Collaboration, Respect, Openness and Diversity are core values that define the George Washington University (GW). As we continue to take great strides in combating the COVID-19 pandemic, we realize on-campus housing has become a matter of concern in both rising costs and public safety. In order to reflect our desire to make this a welcoming and inclusive space for all students, we have decided to waive our university's mandatory on campus housing.</p>
-</div>
-<div class="about-body left-div">
-    <h3>New Housing Guidelines</h3>
-    <p>To supplement the rollout of our U-Pass program . . .Use the header tab to get a rough estimate of price ranges to consider in the DMV. Our website includes a variety of affordable housing options in D.C., Virginia, and Maryland. Available units are conveniently located nearby a Metro Station.</p>
-</div>
-<div class="about-body right-div">
-    <h3>About Us</h3>
-    <p>This website is a mockup of an extension of GWU's Campus Living and Residential Education website. It was built by Oscar Becerra, Haegi Oh, and Khatera Merkhel using Bootstrap.</p>
+<div class="about-body aboutForm">
+    <h3>Rent Calculator</h3>
+    <p>To use this tool, simply select the number of roommates (including yourself) and input your respective monthly take-home pays. This tool will then take 30% of your combined pays to estimate what your maximum rent should be.  </p>
 </div>
 
+<div class="calculator">
+    <form>
+        <div class="form-group row">
+            <label for="exampleFormControlSelect1" class="col-sm-2 col-form-label">Number of Roommates</label>
+            <div class="col-sm-10">
+                <select class="form-control formBox" id="exampleFormControlSelect1">
+                    <option onclick="generateForms(1)">1</option>
+                    <option onclick="generateForms(2)">2</option>
+                    <option onclick="generateForms(3)">3</option>
+                    <option onclick="generateForms(4)">4</option>
+                </select>
+            </div>
+        </div>
+        <!--
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        -->
+        <div class="form-group" id="roommates">
+
+            </div>
+        <div class="form-group row">
+                <label for="budget" class="col-sm-2 col-form-label">Monthly Rent:</label>
+                <div class="col-sm-10">
+                    <input type="text" readonly class="form-control-plaintext formBox" id="budget">
+                </div>
+            </div>
+        <button type="button" class="btn btn-primary" onclick="calculateRent()">Calculate Rent</button>
+    </form>
+</div>
 <footer class="py-1 bg-gwu" style="clear: both">
     <div class="footer">
         <h2 class="footer-header">Campus Living and Residential Education</h2>
