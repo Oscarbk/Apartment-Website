@@ -97,13 +97,17 @@ form {
 p {
     text-align: left;
 }
-/*
-#3 Cultural differences in remote work and office plans in tech industry
-presentation would have been a little bit smoother is relevant web pages were pulled up prior
-Countries which were able to get COVID under control faster had a higher portion of their workforce return to office
-Made topic relevant to all classmates
-all members were loud and clear
-
-topics
-
-*/
+.flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.calculator {
+    position: absolute;
+    top: 48px;
+    left: 32px;
+    width: 30%;
+    height: auto;
+    text-align: left;
+}
