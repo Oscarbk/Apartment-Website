@@ -61,12 +61,11 @@ h3 {
     font-family: "AvenirLT-Heavy",Helvetica,Arial,sans-serif;
     line-height: 1.28571em;
 }
-.test {
-    margin: 0 95px 0 95px;
+.GWFont {
     color: black;
     font-family: "AvenirLT-Heavy",Helvetica,Arial,sans-serif;
-    line-height: 1.28571em;
-    text-align: left;
+    line-height: 1.48571em;
+    font-size: 18px;
 }
 .left-div {
     float: left;
@@ -88,7 +87,7 @@ form {
 }
 .aboutForm {
     position: absolute;
-    top: 32px;
+    top: -40px;
     right: -32px;
     width: 30%;
     height: auto;
@@ -110,4 +109,16 @@ p {
     width: 30%;
     height: auto;
     text-align: left;
+}
+.card-text {
+    text-align: center;
+}
+.quickFix {
+    position: relative;
+}
+.b {
+    display: inline-block;
+    width: 45%;
+    height: 30%;
+    vertical-align: top;
 }

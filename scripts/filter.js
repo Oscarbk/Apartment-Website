@@ -1,4 +1,4 @@
-var formsGenerated = 0;
+let formsGenerated = 0;
 function generateForms(roommates) {
     document.getElementById("roommates").innerHTML = "";
     for (let i = 0; i < roommates; i++) {
@@ -13,7 +13,7 @@ function generateForms(roommates) {
     formsGenerated = roommates;
 }
 function calculateRent() {
-    var budget = 0;
+    let budget = 0;
     for (let i = 0; i < formsGenerated; i++)
     {
         budget += document.getElementById("roommate"+i).value * 0.3;

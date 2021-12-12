@@ -9,11 +9,10 @@
     <script src="scripts/filter.js"></script>
 </head>
 <body>
-<div class="flex-wrapper">
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-gwu">
     <div class="container">
-        <a class="navbar-brand">Division for Student Affairs</a>
+        <a class="navbar-brand" style="color: white;">Division for Student Affairs</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -27,13 +26,11 @@
         </div>
     </div>
 </nav>
-
-<div class="about-body aboutForm">
-    <h3>Rent Calculator</h3>
-    <p>To use this tool, simply select the number of roommates (including yourself) and input your respective monthly take-home pays. This tool will then take 30% of your combined pays to estimate what your maximum rent should be.  </p>
-</div>
-
-<div class="calculator">
+<div class="quickFix">
+    <div class="about-body aboutForm GWFont">
+        <h3>Rent Calculator</h3>
+        <p>To use this tool, simply select the number of roommates (including yourself) and input your respective monthly take-home pays. This tool will then take 30% of your combined pays to estimate what your maximum rent should be.  </p>
+    </div>
     <form>
         <div class="form-group row">
             <label for="exampleFormControlSelect1" class="col-sm-2 col-form-label">Number of Roommates</label>
@@ -46,9 +43,6 @@
                 </select>
             </div>
         </div>
-        <!--
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-        -->
         <div class="form-group" id="roommates">
 
             </div>
@@ -61,7 +55,8 @@
         <button type="button" class="btn btn-primary" onclick="calculateRent()">Calculate Rent</button>
     </form>
 </div>
-<footer class="py-1 bg-gwu" style="clear: both; overflow: hidden">
+
+<footer class="py-1 bg-gwu" style="clear: both; position: fixed; bottom: 0; width: 100%">
         <h2 class="footer-header">Campus Living and Residential Education</h2>
         <p class="footer-subheader">Division for Student Affairs</p>
         <p class="footer-body">
@@ -72,7 +67,6 @@
             <a href="mailto:living@gwu.edu">living@gwu.edu</a>
         </p>
 </footer>
-</div>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
