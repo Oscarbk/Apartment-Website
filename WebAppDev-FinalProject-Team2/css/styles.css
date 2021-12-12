@@ -1,0 +1,124 @@
+.ms-auto {
+    margin-left: auto !important;
+}
+.bg-gwu {
+    background-color: rgb(2, 43, 65);
+}
+.header {
+    text-align: center;
+    color: #0073aa;
+}
+.divider {
+    background-color: #0073aa;
+    height: 4px;
+}
+.resize {
+    max-width: 100%;
+}
+.card-view {
+    border: 1px solid black;
+    border-radius: 25px;
+}
+.listing {
+    max-width: 300px;
+}
+.footer {
+    margin: 8px 0 0 16px;
+}
+.footer-header {
+    color: rgb(173,158,110);
+    font-size: 20px;
+}
+.footer-subheader {
+    color: white;
+    margin-top: -8px;
+    font-size: 16px;
+}
+.footer-body {
+    color: white;
+    font-size: 12px;
+}
+.card-title {
+    color: rgb(173,158,110);
+}
+.btn-primary {
+    color: #205878;
+    background-color: #fff;
+    border-color: #0073aa;
+}
+.btn-primary:hover {
+    color: #205878;
+    background-color: #e3dccc;
+    border-color: #e3dccc;
+}
+h3 {
+    color: #033c5a;
+    font-weight: bold;
+}
+.about-body{
+    margin: 48px 128px 48px 128px;
+    text-align: center;
+    font-family: "AvenirLT-Heavy",Helvetica,Arial,sans-serif;
+    line-height: 1.28571em;
+}
+.GWFont {
+    color: black;
+    font-family: "AvenirLT-Heavy",Helvetica,Arial,sans-serif;
+    line-height: 1.48571em;
+    font-size: 18px;
+}
+.left-div {
+    float: left;
+    width: 30%;
+    height: auto;
+    overflow: hidden;
+}
+.right-div {
+    float: right;
+    width: 30%;
+    height: auto;
+    overflow: hidden;
+}
+form {
+    margin: 32px 32px 32px 32px;
+}
+.formBox {
+    max-width: 128px;
+}
+.aboutForm {
+    position: absolute;
+    top: -40px;
+    right: -32px;
+    width: 30%;
+    height: auto;
+    text-align: left;
+}
+p {
+    text-align: left;
+}
+.flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.calculator {
+    position: absolute;
+    top: 48px;
+    left: 32px;
+    width: 30%;
+    height: auto;
+    text-align: left;
+}
+.card-text {
+    text-align: center;
+}
+.quickFix {
+    position: relative;
+}
+.b {
+    display: inline-block;
+    width: 45%;
+    height: 30%;
+    vertical-align: top;
+}
