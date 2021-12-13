@@ -38,11 +38,11 @@
         <div class="form-group row">
             <label for="exampleFormControlSelect1" class="col-sm-2 col-form-label">Number of Roommates</label>
             <div class="col-sm-10">
-                <select class="form-control formBox" id="exampleFormControlSelect1">
-                    <option onclick="generateForms(1)">1</option>
-                    <option onclick="generateForms(2)">2</option>
-                    <option onclick="generateForms(3)">3</option>
-                    <option onclick="generateForms(4)">4</option>
+                <select class="form-control formBox" id="exampleFormControlSelect1" onchange="generateForms(this.selectedIndex + 1)">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
                 </select>
             </div>
         </div>
